@@ -8,3 +8,6 @@ python    # start console
 from count_words import count_words
 count_words.send("https://www.google.com")
 
+# Run
+python push_worker.py JAAP
+
