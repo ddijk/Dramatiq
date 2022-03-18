@@ -11,3 +11,4 @@ count_words.send("https://www.google.com")
 # Run
 python push_worker.py JAAP
 
+python /Users/dick/Library/Python/3.8/bin/dramatiq -t 1 push_worker  --verbose
