@@ -1,0 +1,24 @@
+queue :pjq.msgs
+bdb4a061-5015-4563-aa8f-09e2152e9cee
+{"queue_name": "pjq", "actor_name": "unified_push_notification_job_processor", "args": [{"user_id_list": "[2251438]", "message_list": "[\"Chris Hopkinson on channel: my msg 1\"]", "push_type": 1, "bypass_all_notify_settings": 1, "extra_param_list": "[{\"type\": 110, \"related_obj_id\": 12, \"extra_obj_id\": -1, \"user_id\": 1075286}]"}], "kwargs": {}, "options": {"redis_message_id": "bdb4a061-5015-4563-aa8f-09e2152e9cee"}, "message_id": "10439532-8757-4214-bb5d-3160c2277c4f", "message_timestamp": 1647608623633}
+====
+queue bull:pjq.msgs
+22830c9e-7a15-4adf-a288-2fd49e3b8836
+{"queue_name":"pjq","actor_name":"unified_push_notification_job_processor","args":[{"naam":"JAAP"}],"kwargs":{},"options":{"redis_message_id":"22830c9e-7a15-4adf-a288-2fd49e3b8836"},"message_id":"8f1af70d-ddbb-41a1-b1f4-ff16c8a7445f","message_timestamp":1647611631530}
+====
+queue dramatiq:pjq.XQ.msgs
+1e0e0f02-cfb7-402b-a222-edc116dd3d7e
+{"queue_name":"pjq","actor_name":"handle","args":[{"naam":"dick"}],"kwargs":{},"options":{"redis_message_id":"1e0e0f02-cfb7-402b-a222-edc116dd3d7e"},"message_id":"f83716b3-2199-40e9-8110-4b5d98f0bca0","message_timestamp":1647542281712}
+6090fb9c-4c1b-4d66-b264-905eb9ba5b4e
+{"queue_name":"pjq","actor_name":"handle","args":[{"naam":"JAAP"}],"kwargs":{},"options":{"redis_message_id":"6090fb9c-4c1b-4d66-b264-905eb9ba5b4e"},"message_id":"979d4642-227f-4f23-b4cd-f76600d895d6","message_timestamp":1647595499907}
+====
+queue pjq.msgs
+0bbb3eae-b2fa-42d3-8c74-04b295349cb7
+{"queue_name": "pjq", "actor_name": "unified_push_notification_job_processor", "args": [{"user_id_list": "[2251438]", "message_list": "[\"Chris Hopkinson on channel: my msg 1\"]", "push_type": 1, "bypass_all_notify_settings": 1, "extra_param_list": "[{\"type\": 110, \"related_obj_id\": 12, \"extra_obj_id\": -1, \"user_id\": 1075286}]"}], "kwargs": {}, "options": {"redis_message_id": "0bbb3eae-b2fa-42d3-8c74-04b295349cb7"}, "message_id": "19eb20d2-6e62-436c-b4ed-52f2abb1633d", "message_timestamp": 1647594544392}
+65b50a78-bb77-468a-88f9-6f03b4fd2ebf
+{"queue_name": "pjq", "actor_name": "unified_push_notification_job_processor", "args": [{"user_id_list": "[2251438]", "message_list": "[\"Chris Hopkinson on channel: my msg 1\"]", "push_type": 1, "bypass_all_notify_settings": 1, "extra_param_list": "[{\"type\": 110, \"related_obj_id\": 12, \"extra_obj_id\": -1, \"user_id\": 1075286}]"}], "kwargs": {}, "options": {"redis_message_id": "65b50a78-bb77-468a-88f9-6f03b4fd2ebf"}, "message_id": "0bda9816-92c5-41c1-aec7-58243522803a", "message_timestamp": 1647594206766}
+ddecea43-7563-47be-a80c-07fa7c717fef
+{"queue_name": "pjq", "actor_name": "unified_push_notification_job_processor", "args": [{"user_id_list": "[2251438]", "message_list": "[\"Chris Hopkinson on channel: my msg 1\"]", "push_type": 1, "bypass_all_notify_settings": 1, "extra_param_list": "[{\"type\": 110, \"related_obj_id\": 12, \"extra_obj_id\": -1, \"user_id\": 1075286}]"}], "kwargs": {}, "options": {"redis_message_id": "ddecea43-7563-47be-a80c-07fa7c717fef"}, "message_id": "05e623fb-6351-4f76-adfa-45192124c377", "message_timestamp": 1647543339971}
+589753ed-8716-4017-9442-70c53cf3e0d9
+{"queue_name": "pjq", "actor_name": "unified_push_notification_job_processor", "args": [{"user_id_list": "[2251438]", "message_list": "[\"Chris Hopkinson on channel: my msg 1\"]", "push_type": 1, "bypass_all_notify_settings": 1, "extra_param_list": "[{\"type\": 110, \"related_obj_id\": 12, \"extra_obj_id\": -1, \"user_id\": 1075286}]"}], "kwargs": {}, "options": {"redis_message_id": "589753ed-8716-4017-9442-70c53cf3e0d9"}, "message_id": "e5346a4c-cbbb-492b-ad74-f93384117458", "message_timestamp": 1647594432287}
+====
