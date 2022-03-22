@@ -8,7 +8,8 @@ python    # start console
 from count_words import count_words
 count_words.send("https://www.google.com")
 
-# Run
+# Run test program to push to queue
 python push_worker.py JAAP
 
+# Run worker that listens to queue
 python /Users/dick/Library/Python/3.8/bin/dramatiq -t 1 push_worker  --verbose
